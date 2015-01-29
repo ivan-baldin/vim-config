@@ -1,0 +1,1 @@
+../external/cpp-vim/syntax/c.vim
