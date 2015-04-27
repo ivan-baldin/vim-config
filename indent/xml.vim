@@ -6,6 +6,13 @@
 "		g:html_indent_strict       -- inhibit 'O O' elements
 "		g:html_indent_strict_table -- inhibit 'O -' elements
 
+" Change default indent behavior
+setlocal tabstop=2
+setlocal softtabstop=2
+setlocal shiftwidth=2
+setlocal smarttab
+setlocal noexpandtab
+
 " Only load this indent file when no other was loaded.
 if exists("b:did_indent")
     finish
