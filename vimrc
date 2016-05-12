@@ -1,6 +1,5 @@
 " General settings
 set number
-set relativenumber
 set incsearch
 
 " Indentation
@@ -14,9 +13,6 @@ set shiftwidth=4
 set softtabstop=4
 set smarttab
 set expandtab
-
-" C++0x curly brace fix
-"let c_no_curly_error=1
 
 nnoremap <F8> :setl noai nocin nosi inde=<CR>
 nnoremap <F9> :setl ts=2 sw=2 sts=2<CR>
