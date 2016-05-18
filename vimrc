@@ -14,6 +14,11 @@ set softtabstop=4
 set smarttab
 set expandtab
 
+" Navigation
+set mouse=a
+map ,n :tabn<cr>
+map ,p :tabp<cr>
+
 nnoremap <F8> :setl noai nocin nosi inde=<CR>
 nnoremap <F9> :setl ts=2 sw=2 sts=2<CR>
 
