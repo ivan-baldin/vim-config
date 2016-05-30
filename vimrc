@@ -16,6 +16,7 @@ set expandtab
 
 " Navigation
 set mouse=a
+set ttymouse=xterm2
 map ,n :tabn<cr>
 map ,p :tabp<cr>
 
