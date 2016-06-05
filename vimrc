@@ -2,6 +2,9 @@
 set number
 set incsearch
 
+" Colors
+colorscheme elflord
+
 " Indentation
 filetype on
 filetype plugin on
@@ -14,14 +17,24 @@ set softtabstop=4
 set smarttab
 set expandtab
 
-" Navigation
+" Mouse
 set mouse=a
 set ttymouse=xterm2
-map ,n :tabn<cr>
-map ,p :tabp<cr>
 
-nnoremap <F8> :setl noai nocin nosi inde=<CR>
-nnoremap <F9> :setl ts=2 sw=2 sts=2<CR>
+" Disable keys
+map <S-K> <Nop>
+
+" Navigation keys
+map ,n :tabn<CR>
+map ,p :tabp<CR>
+nnoremap <C-J> <C-E>
+inoremap <C-J> <C-X><C-E>
+nnoremap <C-K> <C-Y>
+inoremap <C-K> <C-X><C-Y>
+
+" Autoindent switching
+nmap <F8> :setl noai nocin nosi inde=<CR>
+nmap <F9> :setl ts=2 sw=2 sts=2<CR>
 
 " HTML close tags
 imap <C-Space> </<C-X><C-O>
