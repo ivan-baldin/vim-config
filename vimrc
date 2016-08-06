@@ -1,6 +1,7 @@
 " General settings
 set number
 set incsearch
+set noswapfile
 
 " Colors
 colorscheme elflord
