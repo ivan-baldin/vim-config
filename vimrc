@@ -4,7 +4,7 @@ set incsearch
 set noswapfile
 
 " Colors
-colorscheme elflord
+colorscheme delek
 
 " Indentation
 filetype on
