@@ -41,6 +41,10 @@ nmap <F9> :setl ts=2 sw=2 sts=2<CR>
 imap <C-Space> </<C-X><C-O>
 "iabbrev </ </<C-X><C-O>
 
+" Fix N_O delay
+set noesckeys
+set timeout timeoutlen=1000 ttimeoutlen=100
+
 " Additional filetypes
 au BufRead,BufNewFile *.vs,*.fs,*.glsl  set filetype=glsl    " OpenGL GLSL files
 au BufRead,BufNewFile *.flex            set filetype=lex     " Another FLEX extension
