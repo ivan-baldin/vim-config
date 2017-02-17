@@ -3,6 +3,11 @@ set number
 set incsearch
 set noswapfile
 
+" Modelines
+set nocompatible
+set modelines=15
+set modeline
+
 " Colors
 colorscheme delek
 
