@@ -1,3 +1,6 @@
 [submodule "external/cpp-vim"]
 	path = external/cpp-vim
 	url = https://github.com/vim-jp/cpp-vim.git
+[submodule "external/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim

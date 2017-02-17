@@ -2,19 +2,14 @@
 set number
 set incsearch
 set noswapfile
+set nocompatible
 
 " Modelines
-set nocompatible
 set modelines=15
 set modeline
 
 " Colors
 colorscheme delek
-
-" Indentation
-filetype on
-filetype plugin on
-filetype indent on
 
 " Default indentantion
 set tabstop=4
@@ -53,3 +48,16 @@ set timeout timeoutlen=1000 ttimeoutlen=100
 " Additional filetypes
 au BufRead,BufNewFile *.vs,*.fs,*.glsl  set filetype=glsl    " OpenGL GLSL files
 au BufRead,BufNewFile *.flex            set filetype=lex     " Another FLEX extension
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+call vundle#end()
+filetype plugin indent on
