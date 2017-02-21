@@ -58,6 +58,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-jp/vim-cpp'
 
 call vundle#end()
 filetype plugin indent on
