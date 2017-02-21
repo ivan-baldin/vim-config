@@ -59,6 +59,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'vim-jp/vim-cpp'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on

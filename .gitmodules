@@ -4,3 +4,6 @@
 [submodule "bundle/vim-cpp"]
 	path = bundle/vim-cpp
 	url = https://github.com/vim-jp/vim-cpp
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
