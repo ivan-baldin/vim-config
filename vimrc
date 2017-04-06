@@ -18,6 +18,8 @@ set softtabstop=4
 set smarttab
 set expandtab
 
+set term=builtin_ansi
+
 " Mouse
 set mouse=a
 set ttymouse=xterm2
@@ -53,6 +55,7 @@ au BufRead,BufNewFile *.flex            set filetype=lex     " Another FLEX exte
 " Vundle
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype off
+set nocompatible
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -63,3 +66,4 @@ Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on
+
